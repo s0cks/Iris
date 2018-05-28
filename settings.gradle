@@ -1,0 +1,8 @@
+rootProject.name = 'iris'
+include 'iris-scm'
+include 'iris-rpc-api'
+include 'iris-rpc-server'
+include 'iris-rpc-client'
+include 'iris-service'
+include 'iris-cli'
+

@@ -1,0 +1,6 @@
+apply from: "../gradle/scripts/config.gradle"
+
+dependencies{
+    testCompile "junit:junit:${getDependency("junit")}"
+    compile project(":iris-rpc-api")
+}

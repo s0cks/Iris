@@ -1,0 +1,11 @@
+# Ignore Everything
+/*
+/*/
+
+# Except These
+!/.gitignore
+!/README.md
+!/LICENSE.md
+!/build.gradle
+!/build.json
+!/src/

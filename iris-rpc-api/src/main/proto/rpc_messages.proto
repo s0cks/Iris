@@ -1,0 +1,14 @@
+syntax = "proto3";
+package io.github.s0cks.iris.rpc.message;
+
+option java_package = "io.github.s0cks.iris.rpc.message";
+option java_outer_classname = "IrisMessages";
+
+message ComputeMessage{
+    string value = 1;
+}
+
+message ResultMessage{
+    int32 status = 1;
+    string value = 2;
+}

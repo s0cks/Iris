@@ -1,0 +1,19 @@
+# Ignore Everything
+/*
+/*/
+
+# Except These
+!/.gitignore
+!/README.md
+!/LICENS.md
+!/build.gradle
+!/settings.gradle
+!/gradlew
+!/gradlew.bat
+!/gradle/
+!/iris-cli/
+!/iris-rpc-api/
+!/iris-rpc-client/
+!/iris-rpc-server/
+!/iris-scm/
+!/iris-service/

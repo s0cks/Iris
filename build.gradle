@@ -1,0 +1,17 @@
+allprojects{
+    group "io.github.s0cks"
+    version "1.0.0"
+
+    apply plugin: "idea"
+}
+
+subprojects{
+    repositories{
+        mavenCentral()
+        jcenter()
+    }
+
+    apply plugin: "java"
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+}

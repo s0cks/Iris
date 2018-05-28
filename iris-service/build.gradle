@@ -1,0 +1,9 @@
+apply from: "../gradle/scripts/config.gradle"
+
+dependencies{
+    testCompile "junit:junit:${getDependency("junit")}"
+    compile project(":iris-rpc-server")
+    compile project(":iris-scm")
+    compile "net.sf.jopt-simple:jopt-simple:${getDependency("jopt")}"
+    compile "org.apache.opennlp:opennlp-tools:${getDependency("opennlp-tools")}"
+}
