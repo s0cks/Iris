@@ -5,7 +5,7 @@
 # Except These
 !/.gitignore
 !/README.md
-!/LICENS.md
+!/LICENSE.md
 !/build.gradle
 !/settings.gradle
 !/gradlew
